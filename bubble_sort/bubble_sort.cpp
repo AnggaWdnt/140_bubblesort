@@ -38,6 +38,17 @@ void bubbleSortArray() {	// procedur untuk mengurutkan array dengan metode bubbl
 		}
 	}
 }
+
+void unsorted() {
+	cout << endl;
+	cout << "============================" << endl;
+	cout << "Elemen Array yang telah disusun" << endl;
+	cout << "============================" << endl;
+	for (int j = 0; j < n; j++) {
+		cout << a[j] << endl;
+	}
+	cout << endl;
+}
 int main()
 {
 }
